@@ -1,0 +1,35 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Spam Detector ",
+  "description": "This extension used to detect spam or non-spam messages from gmail.",
+  "version": "1.0",
+   "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      // "css": [ "custom.css" ],
+      "js": ["jquery.min.js","content.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+        "scripts": ["popup.js"],
+        "persistent": false
+    },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
