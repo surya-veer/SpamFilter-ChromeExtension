@@ -11,19 +11,19 @@
         "https://mail.google.com/*"
       ],
       // "css": [ "custom.css" ],
-      "js": ["jquery.min.js","content.js"]
+      "js": ["js/jquery.min.js","js/content.js"]
     }
   ],
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "assets/icon.png",
     "default_popup": "popup.html"
   },
   "icons": {
-    "48": "icon.png"
+    "48": "assets/icon.png"
   },
   "background": {
-        "scripts": ["popup.js"],
+        "scripts": ["js/popup.js"],
         "persistent": false
     },
 
