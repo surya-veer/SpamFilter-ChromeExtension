@@ -30,7 +30,7 @@ For Python app: <br>
 5. Now you can check messages. 
 
 ## Note:
-If you are not getting the result then check your browser console. If it is showing <p style="color:red;">Access-Control-Allow-Origin</p> error then, <br><br>
+If you are not getting the result then check your browser console. If it is showing ```Access-Control-Allow-Origin``` error then, <br><br>
 ![error message](assets/error.png "Error message")<br><br>
 You can find a Chrome extension(https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) that will modify CORS headers on the fly in your application. Obviously, this is Chrome only, but I like that it works with zero changes anywhere at all.
 You can use it for debugging your app on a local machine (if everything works in production).
@@ -39,3 +39,4 @@ You can use it for debugging your app on a local machine (if everything works in
 ![demo](assets/myimage.gif "Demo")<br><br>
 
 ### Please commit for any changes or bugs :)
+
