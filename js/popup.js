@@ -1,6 +1,3 @@
-chrome.browserAction.onClicked.addListener(function(tab) { 
- $("#message").html('<h3>Hello</h3>');
-});
 
 
 function getData() {
