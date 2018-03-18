@@ -22,7 +22,7 @@ For Python app: <br>
 ## How to use
 1. Download clone or download this repository.
 2. Extract to some location
-3. First, run ```**app.py**``` from ```**script**``` folder<br>
+3. First, run **```app.py```** from **```script```** folder<br>
     Now flask server will start on localhost(http://127.0.0.1:5000/)<br><br>
     ![demo](assets/server.png "Server status")<br><br>
 4. Now load extension in chrome.
